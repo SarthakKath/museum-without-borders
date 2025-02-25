@@ -6,9 +6,26 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Oculi Display", "sans-serif"],
-        body: ["Aaux Pro", "sans-serif"],
-        button: ["Lulo Clean One", "sans-serif"],
+        display: [
+          "system-ui",
+          "-apple-system",
+          "Helvetica Neue",
+          "Arial",
+          "sans-serif"
+        ],
+        body: [
+          "Inter",
+          "system-ui",
+          "-apple-system",
+          "Arial",
+          "sans-serif"
+        ],
+        button: [
+          "Montserrat",
+          "Futura",
+          "system-ui",
+          "sans-serif"
+        ],
       },
       borderRadius: {
         lg: "var(--radius)",
