@@ -2,12 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Oculi Display';
+  src: url('/fonts/OculiDisplay.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Aaux Pro';
+  src: url('/fonts/AauxPro.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lulo Clean One';
+  src: url('/fonts/LuloCleanOne.woff2') format('woff2');
+}
+
 @layer base {
+  :root {
+    --neon-pink: 300 100% 50%;
+    --neon-yellow: 58 100% 59%;
+    --neon-purple: 258 100% 64%;
+    --neon-green: 98 100% 72%;
+  }
+
   * {
     @apply border-border;
   }
 
   body {
-    @apply font-sans antialiased bg-background text-foreground;
+    @apply font-body antialiased bg-background text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  button, .button-text {
+    @apply font-button;
   }
 }

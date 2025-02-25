@@ -3,10 +3,10 @@ import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/compon
 
 export default function Header() {
   return (
-    <header className="w-full border-b bg-white">
+    <header className="w-full border-b bg-primary">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/">
-          <a className="text-2xl font-bold text-gray-900 hover:text-gray-700 transition-colors">
+          <a className="text-2xl font-display text-white hover:text-accent-yellow transition-colors">
             Museum Without Borders
           </a>
         </Link>
@@ -15,28 +15,28 @@ export default function Header() {
           <NavigationMenuList className="gap-6">
             <NavigationMenuItem>
               <Link href="/exhibitions">
-                <a className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+                <a className="font-button text-sm text-white hover:text-accent-pink transition-colors">
                   Exhibitions
                 </a>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/events">
-                <a className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+                <a className="font-button text-sm text-white hover:text-accent-green transition-colors">
                   Events
                 </a>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/artists">
-                <a className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+                <a className="font-button text-sm text-white hover:text-accent-purple transition-colors">
                   Artists
                 </a>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/visit">
-                <a className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+                <a className="font-button text-sm text-white hover:text-accent-yellow transition-colors">
                   Visit
                 </a>
               </Link>
