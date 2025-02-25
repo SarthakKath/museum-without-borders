@@ -14,7 +14,7 @@ export default {
           "sans-serif"
         ],
         body: [
-          "Inter",
+          "Aaux Pro",
           "system-ui",
           "-apple-system",
           "Arial",

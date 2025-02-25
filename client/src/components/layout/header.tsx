@@ -6,8 +6,12 @@ export default function Header() {
     <header className="w-full border-b bg-primary">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/">
-          <a className="text-2xl font-display text-white hover:text-accent-yellow transition-colors">
-            Museum Without Borders
+          <a className="hover:opacity-80 transition-opacity">
+            <img 
+              src="/images/logo.png" 
+              alt="Museum Without Borders"
+              className="h-8"
+            />
           </a>
         </Link>
 
